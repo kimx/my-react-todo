@@ -227,6 +227,30 @@ npm run lint
 - 使用 `launch.json` 調試功能需要安裝 Chrome 瀏覽器
 - 如果沒有 Chrome，可以修改 `type` 為 `msedge` 使用 Edge 瀏覽器
 
+## 🔌 Cursor/VS Code React 擴充套件推薦
+
+本專案在 Cursor 編輯器（或 VS Code）中開發，以下是推薦安裝的 React 相關擴充套件：
+
+### 核心 React 擴充套件
+
+1. **ES7+ React/Redux/React-Native snippets**
+   - 擴充套件 ID: `dsznajder.es7-react-js-snippets`
+   - 功能：提供 React、Redux 和 React Native 的程式碼片段
+   - 用途：快速生成常用的 React 組件和 Hooks 程式碼
+
+2. **ESLint**
+   - 擴充套件 ID: `dbaeumer.vscode-eslint`
+   - 功能：整合 ESLint 程式碼檢查工具
+   - 用途：即時顯示程式碼錯誤和警告，與專案的 ESLint 配置整合
+   - 注意：本專案已配置 `eslint-plugin-react-hooks` 和 `eslint-plugin-react-refresh`
+
+3. **Prettier - Code formatter**
+   - 擴充套件 ID: `esbenp.prettier-vscode`
+   - 功能：自動格式化程式碼
+   - 用途：統一程式碼風格，提升可讀性
+
+
+
 ## 🎨 樣式說明
 
 專案使用 CSS 進行樣式設計：
